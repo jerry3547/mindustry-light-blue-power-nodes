@@ -2,7 +2,7 @@
   "name": "power-node-water",
   "displayName": "Light Blue Water Power Nodes",
   "author": "Jerry",
-  "version": "0.1.3",
-  "description": "Small and large original Serpulo Power Nodes support liquid terrain and light blue body sprites. Tested by Jerry on build 160.7.",
+  "version": "0.1.4",
+  "description": "Light blue small and large Power Nodes support liquid terrain. Small node laser range is 7; six-empty-tile placement pending gameplay verification.",
   "minGameVersion": "160"
 }
