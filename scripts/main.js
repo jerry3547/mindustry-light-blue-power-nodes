@@ -1,5 +1,7 @@
 // Keep the original nodes and their behavior; permit liquid terrain.
 const blocks = Packages.mindustry.content.Blocks;
+// Small nodes: target six empty tiles between nodes (range 7).
+blocks.powerNode.laserRange = 7;
 const nodes = [blocks.powerNode, blocks.powerNodeLarge];
 for (let i = 0; i < nodes.length; i++) nodes[i].placeableLiquid = true;
 
